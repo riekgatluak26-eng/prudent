@@ -1822,243 +1822,148 @@
         </div>
     </section>
 
-    <!-- ========== GALLERY SECTION ========== -->
+    <!-- ========== GALLERY SECTION (FULLY VISIBLE IMAGES) ========== -->
 <section id="gallery" style="
     background: #FFFFFF;
     padding: 100px clamp(20px, 5vw, 80px);
 ">
     <div style="max-width: 1200px; margin: 0 auto;">
         <div class="reveal" style="text-align:center; max-width:700px; margin:0 auto 60px;">
-            <span class="eyebrow" style="
-                color: #E07B39;
-                font-size: 12px;
-                font-weight: 700;
-                letter-spacing: 3px;
-                text-transform: uppercase;
-            ">Our Work in Action</span>
-            <h2 class="section-title" style="
+            <span style="color:#E07B39; font-size:12px; font-weight:700; letter-spacing:3px; text-transform:uppercase;">Our Work in Action</span>
+            <h2 style="
                 font-size: clamp(32px, 5vw, 48px);
                 font-weight: 700;
                 color: #0D1F1A;
                 margin-bottom: 16px;
                 font-family: 'Poppins', sans-serif;
-            ">Security <span style="color: #E07B39;">Gallery</span></h2>
-            <p style="color: #6B7280; font-size: 18px;">A glimpse into our team, equipment, and operations across South Sudan.</p>
+            ">Security <span style="color:#E07B39;">Gallery</span></h2>
+            <p style="color:#6B7280; font-size:18px;">A glimpse into our team, equipment, and operations across South Sudan.</p>
         </div>
 
-        <!-- Gallery Grid (no cropping) -->
+        <!-- Gallery Grid – images shown in full, no cropping -->
         <div class="reveal" style="
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
             gap: 24px;
         ">
-            <!-- Image 1 -->
+            <!-- Image Card 1 -->
             <div style="
                 background: #FAF8F4;
                 border-radius: 16px;
-                overflow: hidden;
                 box-shadow: 0 8px 25px rgba(0,0,0,0.05);
                 transition: all 0.4s cubic-bezier(0.22,1,0.36,1);
                 border: 1px solid rgba(0,0,0,0.04);
                 position: relative;
-            " onmouseover="this.style.transform='translateY(-8px)'; this.style.boxShadow='0 20px 50px rgba(0,0,0,0.12)'; this.style.borderColor='rgba(224,123,57,0.3)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 8px 25px rgba(0,0,0,0.05)'; this.style.borderColor='rgba(0,0,0,0.04)'">
+            " onmouseover="this.style.transform='translateY(-8px)'; this.style.boxShadow='0 20px 50px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 8px 25px rgba(0,0,0,0.05)'">
                 <img src="assets/pru1.jpeg" alt="Security guard at checkpoint" style="
                     width: 100%;
                     height: auto;
                     display: block;
-                    object-fit: contain;
-                    transition: opacity 0.3s;
-                " loading="lazy">
-                <div style="
-                    position: absolute;
-                    bottom: 0;
-                    left: 0;
-                    right: 0;
-                    background: linear-gradient(to top, rgba(13,31,26,0.7), transparent);
-                    padding: 20px 16px 12px;
-                    color: white;
-                    font-size: 14px;
-                    font-weight: 600;
-                    font-family: 'Poppins', sans-serif;
-                    opacity: 0;
-                    transition: opacity 0.3s;
-                " onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0'">
-                    <i class="fas fa-shield-alt" style="margin-right: 6px; color: #D4A12A;"></i> Professional Guarding
+                    border-radius: 16px 16px 0 0;
+                    background: #f0f0f0;
+                " onerror="this.src='data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22300%22%20height%3D%22200%22%20viewBox%3D%220%200%20300%20200%22%3E%3Crect%20fill%3D%22%23ddd%22%20width%3D%22300%22%20height%3D%22200%22%2F%3E%3Ctext%20x%3D%22150%22%20y%3D%22100%22%20text-anchor%3D%22middle%22%20fill%3D%22%23999%22%20font-size%3D%2214%22%3EImage%20not%20found%3C%2Ftext%3E%3C%2Fsvg%3E'; this.alt='Image missing';" loading="lazy">
+                <div style="padding:12px 16px; color:#0D1F1A; font-size:14px; font-weight:600; font-family:'Poppins',sans-serif;">
+                    <i class="fas fa-shield-alt" style="margin-right:6px; color:#D4A12A;"></i> Professional Guarding
                 </div>
             </div>
 
-            <!-- Image 2 -->
+            <!-- Image Card 2 -->
             <div style="
                 background: #FAF8F4;
                 border-radius: 16px;
-                overflow: hidden;
                 box-shadow: 0 8px 25px rgba(0,0,0,0.05);
                 transition: all 0.4s cubic-bezier(0.22,1,0.36,1);
                 border: 1px solid rgba(0,0,0,0.04);
-                position: relative;
-            " onmouseover="this.style.transform='translateY(-8px)'; this.style.boxShadow='0 20px 50px rgba(0,0,0,0.12)'; this.style.borderColor='rgba(224,123,57,0.3)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 8px 25px rgba(0,0,0,0.05)'; this.style.borderColor='rgba(0,0,0,0.04)'">
+            " onmouseover="this.style.transform='translateY(-8px)'; this.style.boxShadow='0 20px 50px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 8px 25px rgba(0,0,0,0.05)'">
                 <img src="assets/pru2.jpeg" alt="CCTV installation" style="
                     width: 100%;
                     height: auto;
                     display: block;
-                    object-fit: contain;
-                    transition: opacity 0.3s;
-                " loading="lazy">
-                <div style="
-                    position: absolute;
-                    bottom: 0;
-                    left: 0;
-                    right: 0;
-                    background: linear-gradient(to top, rgba(13,31,26,0.7), transparent);
-                    padding: 20px 16px 12px;
-                    color: white;
-                    font-size: 14px;
-                    font-weight: 600;
-                    font-family: 'Poppins', sans-serif;
-                    opacity: 0;
-                    transition: opacity 0.3s;
-                " onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0'">
-                    <i class="fas fa-camera" style="margin-right: 6px; color: #D4A12A;"></i> CCTV Installation
+                    border-radius: 16px 16px 0 0;
+                    background: #f0f0f0;
+                " onerror="this.src='data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22300%22%20height%3D%22200%22%20viewBox%3D%220%200%20300%20200%22%3E%3Crect%20fill%3D%22%23ddd%22%20width%3D%22300%22%20height%3D%22200%22%2F%3E%3Ctext%20x%3D%22150%22%20y%3D%22100%22%20text-anchor%3D%22middle%22%20fill%3D%22%23999%22%20font-size%3D%2214%22%3EImage%20not%20found%3C%2Ftext%3E%3C%2Fsvg%3E'; this.alt='Image missing';" loading="lazy">
+                <div style="padding:12px 16px; color:#0D1F1A; font-size:14px; font-weight:600; font-family:'Poppins',sans-serif;">
+                    <i class="fas fa-camera" style="margin-right:6px; color:#D4A12A;"></i> CCTV Installation
                 </div>
             </div>
 
-            <!-- Image 3 -->
+            <!-- Image Card 3 -->
             <div style="
                 background: #FAF8F4;
                 border-radius: 16px;
-                overflow: hidden;
                 box-shadow: 0 8px 25px rgba(0,0,0,0.05);
                 transition: all 0.4s cubic-bezier(0.22,1,0.36,1);
                 border: 1px solid rgba(0,0,0,0.04);
-                position: relative;
-            " onmouseover="this.style.transform='translateY(-8px)'; this.style.boxShadow='0 20px 50px rgba(0,0,0,0.12)'; this.style.borderColor='rgba(224,123,57,0.3)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 8px 25px rgba(0,0,0,0.05)'; this.style.borderColor='rgba(0,0,0,0.04)'">
+            " onmouseover="this.style.transform='translateY(-8px)'; this.style.boxShadow='0 20px 50px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 8px 25px rgba(0,0,0,0.05)'">
                 <img src="assets/pru3.jpeg" alt="Mobile patrol unit" style="
                     width: 100%;
                     height: auto;
                     display: block;
-                    object-fit: contain;
-                    transition: opacity 0.3s;
-                " loading="lazy">
-                <div style="
-                    position: absolute;
-                    bottom: 0;
-                    left: 0;
-                    right: 0;
-                    background: linear-gradient(to top, rgba(13,31,26,0.7), transparent);
-                    padding: 20px 16px 12px;
-                    color: white;
-                    font-size: 14px;
-                    font-weight: 600;
-                    font-family: 'Poppins', sans-serif;
-                    opacity: 0;
-                    transition: opacity 0.3s;
-                " onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0'">
-                    <i class="fas fa-motorcycle" style="margin-right: 6px; color: #D4A12A;"></i> Mobile Patrol
+                    border-radius: 16px 16px 0 0;
+                    background: #f0f0f0;
+                " onerror="this.src='data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22300%22%20height%3D%22200%22%20viewBox%3D%220%200%20300%20200%22%3E%3Crect%20fill%3D%22%23ddd%22%20width%3D%22300%22%20height%3D%22200%22%2F%3E%3Ctext%20x%3D%22150%22%20y%3D%22100%22%20text-anchor%3D%22middle%22%20fill%3D%22%23999%22%20font-size%3D%2214%22%3EImage%20not%20found%3C%2Ftext%3E%3C%2Fsvg%3E'; this.alt='Image missing';" loading="lazy">
+                <div style="padding:12px 16px; color:#0D1F1A; font-size:14px; font-weight:600; font-family:'Poppins',sans-serif;">
+                    <i class="fas fa-motorcycle" style="margin-right:6px; color:#D4A12A;"></i> Mobile Patrol
                 </div>
             </div>
 
-            <!-- Image 4 -->
+            <!-- Image Card 4 -->
             <div style="
                 background: #FAF8F4;
                 border-radius: 16px;
-                overflow: hidden;
                 box-shadow: 0 8px 25px rgba(0,0,0,0.05);
                 transition: all 0.4s cubic-bezier(0.22,1,0.36,1);
                 border: 1px solid rgba(0,0,0,0.04);
-                position: relative;
-            " onmouseover="this.style.transform='translateY(-8px)'; this.style.boxShadow='0 20px 50px rgba(0,0,0,0.12)'; this.style.borderColor='rgba(224,123,57,0.3)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 8px 25px rgba(0,0,0,0.05)'; this.style.borderColor='rgba(0,0,0,0.04)'">
+            " onmouseover="this.style.transform='translateY(-8px)'; this.style.boxShadow='0 20px 50px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 8px 25px rgba(0,0,0,0.05)'">
                 <img src="assets/pru4.jpeg" alt="Team briefing" style="
                     width: 100%;
                     height: auto;
                     display: block;
-                    object-fit: contain;
-                    transition: opacity 0.3s;
-                " loading="lazy">
-                <div style="
-                    position: absolute;
-                    bottom: 0;
-                    left: 0;
-                    right: 0;
-                    background: linear-gradient(to top, rgba(13,31,26,0.7), transparent);
-                    padding: 20px 16px 12px;
-                    color: white;
-                    font-size: 14px;
-                    font-weight: 600;
-                    font-family: 'Poppins', sans-serif;
-                    opacity: 0;
-                    transition: opacity 0.3s;
-                " onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0'">
-                    <i class="fas fa-users" style="margin-right: 6px; color: #D4A12A;"></i> Team Briefing
+                    border-radius: 16px 16px 0 0;
+                    background: #f0f0f0;
+                " onerror="this.src='data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22300%22%20height%3D%22200%22%20viewBox%3D%220%200%20300%20200%22%3E%3Crect%20fill%3D%22%23ddd%22%20width%3D%22300%22%20height%3D%22200%22%2F%3E%3Ctext%20x%3D%22150%22%20y%3D%22100%22%20text-anchor%3D%22middle%22%20fill%3D%22%23999%22%20font-size%3D%2214%22%3EImage%20not%20found%3C%2Ftext%3E%3C%2Fsvg%3E'; this.alt='Image missing';" loading="lazy">
+                <div style="padding:12px 16px; color:#0D1F1A; font-size:14px; font-weight:600; font-family:'Poppins',sans-serif;">
+                    <i class="fas fa-users" style="margin-right:6px; color:#D4A12A;"></i> Team Briefing
                 </div>
             </div>
 
-            <!-- Image 5 -->
+            <!-- Image Card 5 -->
             <div style="
                 background: #FAF8F4;
                 border-radius: 16px;
-                overflow: hidden;
                 box-shadow: 0 8px 25px rgba(0,0,0,0.05);
                 transition: all 0.4s cubic-bezier(0.22,1,0.36,1);
                 border: 1px solid rgba(0,0,0,0.04);
-                position: relative;
-            " onmouseover="this.style.transform='translateY(-8px)'; this.style.boxShadow='0 20px 50px rgba(0,0,0,0.12)'; this.style.borderColor='rgba(224,123,57,0.3)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 8px 25px rgba(0,0,0,0.05)'; this.style.borderColor='rgba(0,0,0,0.04)'">
+            " onmouseover="this.style.transform='translateY(-8px)'; this.style.boxShadow='0 20px 50px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 8px 25px rgba(0,0,0,0.05)'">
                 <img src="assets/pru5.jpeg" alt="Control room monitoring" style="
                     width: 100%;
                     height: auto;
                     display: block;
-                    object-fit: contain;
-                    transition: opacity 0.3s;
-                " loading="lazy">
-                <div style="
-                    position: absolute;
-                    bottom: 0;
-                    left: 0;
-                    right: 0;
-                    background: linear-gradient(to top, rgba(13,31,26,0.7), transparent);
-                    padding: 20px 16px 12px;
-                    color: white;
-                    font-size: 14px;
-                    font-weight: 600;
-                    font-family: 'Poppins', sans-serif;
-                    opacity: 0;
-                    transition: opacity 0.3s;
-                " onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0'">
-                    <i class="fas fa-video" style="margin-right: 6px; color: #D4A12A;"></i> 24/7 Monitoring
+                    border-radius: 16px 16px 0 0;
+                    background: #f0f0f0;
+                " onerror="this.src='data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22300%22%20height%3D%22200%22%20viewBox%3D%220%200%20300%20200%22%3E%3Crect%20fill%3D%22%23ddd%22%20width%3D%22300%22%20height%3D%22200%22%2F%3E%3Ctext%20x%3D%22150%22%20y%3D%22100%22%20text-anchor%3D%22middle%22%20fill%3D%22%23999%22%20font-size%3D%2214%22%3EImage%20not%20found%3C%2Ftext%3E%3C%2Fsvg%3E'; this.alt='Image missing';" loading="lazy">
+                <div style="padding:12px 16px; color:#0D1F1A; font-size:14px; font-weight:600; font-family:'Poppins',sans-serif;">
+                    <i class="fas fa-video" style="margin-right:6px; color:#D4A12A;"></i> 24/7 Monitoring
                 </div>
             </div>
 
-            <!-- Image 6 -->
+            <!-- Image Card 6 -->
             <div style="
                 background: #FAF8F4;
                 border-radius: 16px;
-                overflow: hidden;
                 box-shadow: 0 8px 25px rgba(0,0,0,0.05);
                 transition: all 0.4s cubic-bezier(0.22,1,0.36,1);
                 border: 1px solid rgba(0,0,0,0.04);
-                position: relative;
-            " onmouseover="this.style.transform='translateY(-8px)'; this.style.boxShadow='0 20px 50px rgba(0,0,0,0.12)'; this.style.borderColor='rgba(224,123,57,0.3)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 8px 25px rgba(0,0,0,0.05)'; this.style.borderColor='rgba(0,0,0,0.04)'">
+            " onmouseover="this.style.transform='translateY(-8px)'; this.style.boxShadow='0 20px 50px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 8px 25px rgba(0,0,0,0.05)'">
                 <img src="assets/pru6.jpeg" alt="Security equipment" style="
                     width: 100%;
                     height: auto;
                     display: block;
-                    object-fit: contain;
-                    transition: opacity 0.3s;
-                " loading="lazy">
-                <div style="
-                    position: absolute;
-                    bottom: 0;
-                    left: 0;
-                    right: 0;
-                    background: linear-gradient(to top, rgba(13,31,26,0.7), transparent);
-                    padding: 20px 16px 12px;
-                    color: white;
-                    font-size: 14px;
-                    font-weight: 600;
-                    font-family: 'Poppins', sans-serif;
-                    opacity: 0;
-                    transition: opacity 0.3s;
-                " onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0'">
-                    <i class="fas fa-tools" style="margin-right: 6px; color: #D4A12A;"></i> Security Equipment
+                    border-radius: 16px 16px 0 0;
+                    background: #f0f0f0;
+                " onerror="this.src='data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22300%22%20height%3D%22200%22%20viewBox%3D%220%200%20300%20200%22%3E%3Crect%20fill%3D%22%23ddd%22%20width%3D%22300%22%20height%3D%22200%22%2F%3E%3Ctext%20x%3D%22150%22%20y%3D%22100%22%20text-anchor%3D%22middle%22%20fill%3D%22%23999%22%20font-size%3D%2214%22%3EImage%20not%20found%3C%2Ftext%3E%3C%2Fsvg%3E'; this.alt='Image missing';" loading="lazy">
+                <div style="padding:12px 16px; color:#0D1F1A; font-size:14px; font-weight:600; font-family:'Poppins',sans-serif;">
+                    <i class="fas fa-tools" style="margin-right:6px; color:#D4A12A;"></i> Security Equipment
                 </div>
             </div>
         </div>
